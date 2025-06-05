@@ -45,19 +45,65 @@ code {
 /*Main Content CSS*/
 
 .main_content{
-  height: 100%;
-  width: 100%;
-  display: inline-block;
-  background-color: rgb(255, 0, 0);
-  color: black;
+  
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /*Home Page CSS*/
 
+.homePage{
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+
+}
 
 .homeTitle{
+  display: inline-block;
   text-align: center;
+  background-color: red;
+  height: 100%;
+  width: 100%;
   color: rgb(255, 255, 255);
+  
 }
+
+html{
+  background-color: palegreen;
+}
+
+.homeMainContent{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+}
+
+.aboutContent{
+  border: none;
+  background-color: limegreen;
+  text-align: center;
+}
+
+.socialsContent{
+  border: none;
+  background-color: rgb(88, 150, 117);
+  text-align: center;
+}
+
+.siteContent{
+  text-align: center;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+
 
