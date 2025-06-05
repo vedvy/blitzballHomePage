@@ -10,8 +10,6 @@ export default function BlitzBallHomePage()
 {
     type View = "home" | "blitzball" | "eboard" | "baserun";
 
-    
-
     const [current_view, set_current_view] = useState<View>("home");
 
     const set_view_to_blitzball = () => 
@@ -47,6 +45,7 @@ export default function BlitzBallHomePage()
             blitzball_view={set_view_to_blitzball}
             baserun_view={set_view_to_baserun}
             />
+
             <div className="main_content">
                 {current_view === "home" && (
               <MainHomePage/>  

@@ -41,3 +41,23 @@ code {
   background-color: black;
   color: white;
 }
+
+/*Main Content CSS*/
+
+.main_content{
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  background-color: rgb(255, 0, 0);
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Home Page CSS*/
+
+
+.homeTitle{
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
